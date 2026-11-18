@@ -1,0 +1,26 @@
+{
+  "name": "pharos-erc8004-node-agent-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --env-file-if-exists=.env check.mjs",
+    "register": "node --env-file-if-exists=.env register.mjs",
+    "publish-metadata": "node --env-file-if-exists=.env set-uri.mjs",
+    "feedback": "node --env-file-if-exists=.env feedback.mjs",
+    "read": "node --env-file-if-exists=.env read.mjs",
+    "revoke": "node --env-file-if-exists=.env revoke.mjs",
+    "set-wallet": "node --env-file-if-exists=.env set-wallet.mjs",
+    "validation:request": "node --env-file-if-exists=.env validation-request.mjs",
+    "validation:response": "node --env-file-if-exists=.env validation-response.mjs",
+    "validation:read": "node --env-file-if-exists=.env validation-read.mjs"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  }
+}

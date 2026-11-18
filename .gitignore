@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+agent.json
+agent-registration.json
+feedback.json
+validation.json
+*.log
+.DS_Store

@@ -1,0 +1,30 @@
+{
+  "network": "Pharos Atlantic Testnet",
+  "chainId": 688689,
+  "rpcUrl": "https://atlantic.dplabs-internal.com",
+  "explorerUrl": "https://atlantic.pharosscan.xyz",
+  "version": "2.0.0",
+  "agentRegistry": "eip155:688689:0xF766d8B12d5A15A58cba4DCA51Cbb92F7f84a2BF",
+  "admin": "0x741C6A799398280Df46dEb34cF0486dbDC0FB69f",
+  "source": {
+    "repository": "https://github.com/erc-8004/erc-8004-contracts",
+    "commit": "b9e466c250744a7e06b13dff9d3c2844ed64f825"
+  },
+  "registries": {
+    "identity": {
+      "implementation": "0x69A1a21D01dB4707807a195cb4FFcb83cfD936ae",
+      "address": "0xF766d8B12d5A15A58cba4DCA51Cbb92F7f84a2BF",
+      "startBlock": 32984647
+    },
+    "reputation": {
+      "implementation": "0xe962F43748C922B672a0AbB418b2D11b7CF7cb4c",
+      "address": "0x205d489F78ef263ACcA1562DCE3FED4a170a3716",
+      "startBlock": 32984672
+    },
+    "validation": {
+      "implementation": "0xC26C8c3f25ca916F523c59dF2Ddd0A473Bb07150",
+      "address": "0x45983Ead2B48e69d57689ffdc6AE648482766537",
+      "startBlock": 32985033
+    }
+  }
+}
